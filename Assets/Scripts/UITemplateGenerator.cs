@@ -22,9 +22,6 @@ public class UITemplateGenerator : MonoBehaviour
     public Transform parentTransform; // Parent transform to instantiate templates under
     public int selectedTemplateIndex = 0; // Index of the selected template
     public UITemplateRoot templateRoot = new UITemplateRoot(); // Root object for holding UI templates
-    //public List<UITemplate> templatesl = new List<UITemplate>(); // List of UI templates
-
-    // Private variables
     public UITemplate selectedTemplate; // Currently selected UI template
     public UITemplate templates = new UITemplate(); // UI template instance for adding new templates
    
